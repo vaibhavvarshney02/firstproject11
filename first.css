@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    color: black;
+    background-color:white;
+    font-family: sans-serif;
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+   
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+nav ul li{
+    list-style: none;
+    margin:  30px;
+   
+   
+    
+   
+   
+}
+a{
+    text-decoration: none;
+    color: dark wheat;
+  
+}
+.imglogo{
+    width: 100px;
+    margin-right: 500px;
+}
+#id{
+    
+    margin-top: 20px;
+    font-size: medium;
+    color: dimgray;
+    margin-left: 7px;
+    font-size: 1.3rem;
+  }
+   
+
+a:hover{
+    color: red;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px;
+}
+.first div{
+    width: 35%;
+}
+.leftsec{
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+   
+}
+.rightsec img{
+   
+    border-radius: 50%;
+    width: 70%;
+    margin: 20px 20px;
+}
+
+
+.he{
+
+    
+    margin-left: 200px;
+
+}
+.second img{
+    background-color: beige;
+    border-radius: 58%;
+    width: 47px;
+    margin-left: 125px;
+    margin-top: 50px;
+    height: 43px;
+    padding: 5px;
+    margin-right: -117px;
+  }
+
+#about{
+    margin-top: 50px;
+    margin-left: 473px;
+}
+.third{
+   display: flex;
+   justify-content: space-around;
+   margin: 30px 20px;
+}
+
+
+
+.leftsec1 {
+    
+    width: 30%;
+   
+    
+}
+.rightsec2{
+    font-size: 1.5rem;
+    color: dimgray;
+    font-weight: bold;
+    width: 70%;
+}
+.leftsec1 img{
+    width: 145px;
+height: 158px;
+border-radius: 27%;
+margin-left: 242px;
+}
+
+.skills1{
+    margin-left: 169px;
+  color: black;
+}
+.bar{
+    margin: 5px;
+    color:black;
+}
+.skills{
+    width: 600px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0,0, 0.25), 0 10px 10px rgba(0, 0,0, 0.22);
+}
+.same{
+    background-color:red;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0,0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+
+}
+.same:hover{
+    box-shadow: 0 14px 28px rgba(0, 0,0, 0.25), 0 10px 10px rgba(0, 0,0, 0.24);
+}
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+.css{
+    width:90% ;
+    animation: css 3s;
+
+}
+.javascript{
+    width:40% ;
+    animation: java script 3s;
+}
+footer{
+    background-color: rgb(166, 166, 166);
+}
+.footercontainer{
+    width: 100%;
+    padding: 0px 30px 20px;
+}
+.socialicon img {
+
+    background-color: white;
+border-radius: 58%;
+width: 31px;
+margin-left: 613px;
+margin-top: 56px;
+height: 25px;
+padding: 5px;
+margin-right: -577px;
+
+}
+.footnaver ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.footnaver ul li{
+    list-style: none;
+    margin: 30px;
+}
+@media screen and (max-width:480px){
+    body{
+        
+    }
+}
